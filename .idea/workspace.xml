@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated>
+      <config projectName="flow_reader" targetName="flow_reader" />
+    </generated>
+  </component>
+  <component name="CMakeSettings" AUTO_RELOAD="true">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="2afce568-76b3-4f93-a531-2aa05ef8a1b6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Xycut.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Xycut.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flow_reader.cbp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/feature_tests.bin" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/feature_tests.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/feature_tests.c" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/feature_tests.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/feature_tests.cxx" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/feature_tests.cxx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/flow_reader.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/flow_reader.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/flow_reader.dir/Dbscan.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/flow_reader.dir/Dbscan.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/flow_reader.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/flow_reader.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/flow_reader.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/flow_reader.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/flow_reader.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/flow_reader.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/flow_reader.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/flow_reader.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/flow_reader.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/flow_reader.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/flow_reader.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/flow_reader.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/flow_reader.dir/flow.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/flow_reader.dir/flow.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/flow_reader.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/flow_reader.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/flow_reader.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/flow_reader.dir/main.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/flow_reader.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/flow_reader.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dbscan.h" beforeDir="false" afterPath="$PROJECT_DIR$/Dbscan.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flow_reader" beforeDir="false" afterPath="$PROJECT_DIR$/flow_reader" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/newMat.png" beforeDir="false" afterPath="$PROJECT_DIR$/newMat.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rects.png" beforeDir="false" afterPath="$PROJECT_DIR$/rects.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reflow.png" beforeDir="false" afterPath="$PROJECT_DIR$/reflow.png" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>ClusterData</find>
+      <find>QVector</find>
+      <find>cout</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>vector</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MacroExpansionManager">
+    <option name="directoryName" value="plbcoCfY" />
+  </component>
+  <component name="ProjectId" id="1QE2wdUH03sdbw9p53rlagUuRw1" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="flow_reader" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="flow_reader" TARGET_NAME="flow_reader" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="flow_reader" RUN_TARGET_NAME="flow_reader">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2afce568-76b3-4f93-a531-2aa05ef8a1b6" name="Default Changelist" comment="" />
+      <created>1552750986413</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1552750986413</updated>
+      <workItem from="1552750988131" duration="8698000" />
+      <workItem from="1552763373314" duration="327000" />
+      <workItem from="1552763809963" duration="2751000" />
+      <workItem from="1552804321834" duration="6055000" />
+      <workItem from="1552810410911" duration="19402000" />
+      <workItem from="1552833477342" duration="1001000" />
+      <workItem from="1552855086114" duration="822000" />
+      <workItem from="1567321679527" duration="180000" />
+      <workItem from="1567321876080" duration="105000" />
+      <workItem from="1567322043732" duration="480000" />
+      <workItem from="1567322541312" duration="642000" />
+      <workItem from="1567324934305" duration="57000" />
+      <workItem from="1567325009016" duration="323000" />
+      <workItem from="1567325346859" duration="15303000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/main.cpp</url>
+          <line>35</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/Xycut.cpp</url>
+          <line>42</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/main.cpp</url>
+          <line>33</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/common.cpp</url>
+          <line>14</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/Xycut.cpp</url>
+          <line>35</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

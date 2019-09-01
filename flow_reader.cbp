@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="flow_reader"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\usr\;CMake Files\..\..\..\..\usr\local\;CMake Files\..\..\..\..\usr\local\lib\;CMake Files\..\..\..\..\usr\local\lib\cmake\;CMake Files\..\..\..\..\usr\local\lib\cmake\opencv4\;CMake Files\..\..\..\..\usr\lib\;CMake Files\..\..\..\..\usr\lib\cmake\;CMake Files\..\..\..\..\usr\lib\cmake\eigen3\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/sergey/code/flow_reader_cpp"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/sergey/code/flow_reader_cpp/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/sergey/code/flow_reader_cpp/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/sergey/code/flow_reader_cpp/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/sergey/code/flow_reader_cpp/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/sergey/code/flow_reader_cpp"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/sergey/code/flow_reader_cpp/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/sergey/code/flow_reader_cpp/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/sergey/code/flow_reader_cpp/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/sergey/code/flow_reader_cpp/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="flow_reader">
+				<Option output="/home/sergey/code/flow_reader_cpp/flow_reader" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sergey/code/flow_reader_cpp"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include/opencv4"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/sergey/code/flow_reader_cpp/Makefile&quot;  VERBOSE=1 flow_reader"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/sergey/code/flow_reader_cpp/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/sergey/code/flow_reader_cpp/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/sergey/code/flow_reader_cpp/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="flow_reader/fast">
+				<Option output="/home/sergey/code/flow_reader_cpp/flow_reader" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sergey/code/flow_reader_cpp"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include/opencv4"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/sergey/code/flow_reader_cpp/Makefile&quot;  VERBOSE=1 flow_reader/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/sergey/code/flow_reader_cpp/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/sergey/code/flow_reader_cpp/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/sergey/code/flow_reader_cpp/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/sergey/code/flow_reader_cpp"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/sergey/code/flow_reader_cpp/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/sergey/code/flow_reader_cpp/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/sergey/code/flow_reader_cpp/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/sergey/code/flow_reader_cpp/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/sergey/code/flow_reader_cpp/Dbscan.cpp">
+			<Option target="flow_reader"/>
+		</Unit>
+		<Unit filename="/home/sergey/code/flow_reader_cpp/Dbscan.h">
+			<Option target="flow_reader"/>
+		</Unit>
+		<Unit filename="/home/sergey/code/flow_reader_cpp/Xycut.cpp">
+			<Option target="flow_reader"/>
+		</Unit>
+		<Unit filename="/home/sergey/code/flow_reader_cpp/Xycut.h">
+			<Option target="flow_reader"/>
+		</Unit>
+		<Unit filename="/home/sergey/code/flow_reader_cpp/common.cpp">
+			<Option target="flow_reader"/>
+		</Unit>
+		<Unit filename="/home/sergey/code/flow_reader_cpp/common.h">
+			<Option target="flow_reader"/>
+		</Unit>
+		<Unit filename="/home/sergey/code/flow_reader_cpp/flow.cpp">
+			<Option target="flow_reader"/>
+		</Unit>
+		<Unit filename="/home/sergey/code/flow_reader_cpp/flow.h">
+			<Option target="flow_reader"/>
+		</Unit>
+		<Unit filename="/home/sergey/code/flow_reader_cpp/main.cpp">
+			<Option target="flow_reader"/>
+		</Unit>
+		<Unit filename="/home/sergey/code/flow_reader_cpp/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/sergey/code/flow_reader_cpp/../../../../usr/local/lib/cmake/opencv4/OpenCVConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\opencv4\"/>
+		</Unit>
+		<Unit filename="/home/sergey/code/flow_reader_cpp/../../../../usr/local/lib/cmake/opencv4/OpenCVConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\opencv4\"/>
+		</Unit>
+		<Unit filename="/home/sergey/code/flow_reader_cpp/../../../../usr/local/lib/cmake/opencv4/OpenCVModules-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\opencv4\"/>
+		</Unit>
+		<Unit filename="/home/sergey/code/flow_reader_cpp/../../../../usr/local/lib/cmake/opencv4/OpenCVModules.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\opencv4\"/>
+		</Unit>
+		<Unit filename="/home/sergey/code/flow_reader_cpp/../../../../usr/lib/cmake/eigen3/Eigen3Config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\cmake\eigen3\"/>
+		</Unit>
+		<Unit filename="/home/sergey/code/flow_reader_cpp/../../../../usr/lib/cmake/eigen3/Eigen3ConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\cmake\eigen3\"/>
+		</Unit>
+		<Unit filename="/home/sergey/code/flow_reader_cpp/../../../../usr/lib/cmake/eigen3/Eigen3Targets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\cmake\eigen3\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
