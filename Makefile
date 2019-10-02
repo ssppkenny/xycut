@@ -39,19 +39,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /opt/clion/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /usr/local/Cellar/cmake/3.14.3/bin/cmake
 
 # The command to remove a file.
-RM = /opt/clion/bin/cmake/linux/bin/cmake -E remove -f
+RM = /usr/local/Cellar/cmake/3.14.3/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/sergey/code/flow_reader_cpp
+CMAKE_SOURCE_DIR = /Users/ugxnbmikhs/code/cpp/xycut
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/sergey/code/flow_reader_cpp
+CMAKE_BINARY_DIR = /Users/ugxnbmikhs/code/cpp/xycut
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -59,7 +59,7 @@ CMAKE_BINARY_DIR = /home/sergey/code/flow_reader_cpp
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/opt/clion/bin/cmake/linux/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/usr/local/Cellar/cmake/3.14.3/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -69,8 +69,8 @@ rebuild_cache/fast: rebuild_cache
 
 # Special rule for the target edit_cache
 edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/opt/clion/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake cache editor..."
+	/usr/local/Cellar/cmake/3.14.3/bin/ccmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergey/code/flow_reader_cpp/CMakeFiles /home/sergey/code/flow_reader_cpp/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/ugxnbmikhs/code/cpp/xycut/CMakeFiles /Users/ugxnbmikhs/code/cpp/xycut/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/sergey/code/flow_reader_cpp/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/ugxnbmikhs/code/cpp/xycut/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -149,6 +149,87 @@ Dbscan.s: Dbscan.cpp.s
 Dbscan.cpp.s:
 	$(MAKE) -f CMakeFiles/flow_reader.dir/build.make CMakeFiles/flow_reader.dir/Dbscan.cpp.s
 .PHONY : Dbscan.cpp.s
+
+Enclosure.o: Enclosure.cpp.o
+
+.PHONY : Enclosure.o
+
+# target to build an object file
+Enclosure.cpp.o:
+	$(MAKE) -f CMakeFiles/flow_reader.dir/build.make CMakeFiles/flow_reader.dir/Enclosure.cpp.o
+.PHONY : Enclosure.cpp.o
+
+Enclosure.i: Enclosure.cpp.i
+
+.PHONY : Enclosure.i
+
+# target to preprocess a source file
+Enclosure.cpp.i:
+	$(MAKE) -f CMakeFiles/flow_reader.dir/build.make CMakeFiles/flow_reader.dir/Enclosure.cpp.i
+.PHONY : Enclosure.cpp.i
+
+Enclosure.s: Enclosure.cpp.s
+
+.PHONY : Enclosure.s
+
+# target to generate assembly for a file
+Enclosure.cpp.s:
+	$(MAKE) -f CMakeFiles/flow_reader.dir/build.make CMakeFiles/flow_reader.dir/Enclosure.cpp.s
+.PHONY : Enclosure.cpp.s
+
+ImageNode.o: ImageNode.cpp.o
+
+.PHONY : ImageNode.o
+
+# target to build an object file
+ImageNode.cpp.o:
+	$(MAKE) -f CMakeFiles/flow_reader.dir/build.make CMakeFiles/flow_reader.dir/ImageNode.cpp.o
+.PHONY : ImageNode.cpp.o
+
+ImageNode.i: ImageNode.cpp.i
+
+.PHONY : ImageNode.i
+
+# target to preprocess a source file
+ImageNode.cpp.i:
+	$(MAKE) -f CMakeFiles/flow_reader.dir/build.make CMakeFiles/flow_reader.dir/ImageNode.cpp.i
+.PHONY : ImageNode.cpp.i
+
+ImageNode.s: ImageNode.cpp.s
+
+.PHONY : ImageNode.s
+
+# target to generate assembly for a file
+ImageNode.cpp.s:
+	$(MAKE) -f CMakeFiles/flow_reader.dir/build.make CMakeFiles/flow_reader.dir/ImageNode.cpp.s
+.PHONY : ImageNode.cpp.s
+
+PageSegmenter.o: PageSegmenter.cpp.o
+
+.PHONY : PageSegmenter.o
+
+# target to build an object file
+PageSegmenter.cpp.o:
+	$(MAKE) -f CMakeFiles/flow_reader.dir/build.make CMakeFiles/flow_reader.dir/PageSegmenter.cpp.o
+.PHONY : PageSegmenter.cpp.o
+
+PageSegmenter.i: PageSegmenter.cpp.i
+
+.PHONY : PageSegmenter.i
+
+# target to preprocess a source file
+PageSegmenter.cpp.i:
+	$(MAKE) -f CMakeFiles/flow_reader.dir/build.make CMakeFiles/flow_reader.dir/PageSegmenter.cpp.i
+.PHONY : PageSegmenter.cpp.i
+
+PageSegmenter.s: PageSegmenter.cpp.s
+
+.PHONY : PageSegmenter.s
+
+# target to generate assembly for a file
+PageSegmenter.cpp.s:
+	$(MAKE) -f CMakeFiles/flow_reader.dir/build.make CMakeFiles/flow_reader.dir/PageSegmenter.cpp.s
+.PHONY : PageSegmenter.cpp.s
 
 Xycut.o: Xycut.cpp.o
 
@@ -231,6 +312,87 @@ flow.cpp.s:
 	$(MAKE) -f CMakeFiles/flow_reader.dir/build.make CMakeFiles/flow_reader.dir/flow.cpp.s
 .PHONY : flow.cpp.s
 
+lz4.o: lz4.c.o
+
+.PHONY : lz4.o
+
+# target to build an object file
+lz4.c.o:
+	$(MAKE) -f CMakeFiles/flow_reader.dir/build.make CMakeFiles/flow_reader.dir/lz4.c.o
+.PHONY : lz4.c.o
+
+lz4.i: lz4.c.i
+
+.PHONY : lz4.i
+
+# target to preprocess a source file
+lz4.c.i:
+	$(MAKE) -f CMakeFiles/flow_reader.dir/build.make CMakeFiles/flow_reader.dir/lz4.c.i
+.PHONY : lz4.c.i
+
+lz4.s: lz4.c.s
+
+.PHONY : lz4.s
+
+# target to generate assembly for a file
+lz4.c.s:
+	$(MAKE) -f CMakeFiles/flow_reader.dir/build.make CMakeFiles/flow_reader.dir/lz4.c.s
+.PHONY : lz4.c.s
+
+lz4frame.o: lz4frame.c.o
+
+.PHONY : lz4frame.o
+
+# target to build an object file
+lz4frame.c.o:
+	$(MAKE) -f CMakeFiles/flow_reader.dir/build.make CMakeFiles/flow_reader.dir/lz4frame.c.o
+.PHONY : lz4frame.c.o
+
+lz4frame.i: lz4frame.c.i
+
+.PHONY : lz4frame.i
+
+# target to preprocess a source file
+lz4frame.c.i:
+	$(MAKE) -f CMakeFiles/flow_reader.dir/build.make CMakeFiles/flow_reader.dir/lz4frame.c.i
+.PHONY : lz4frame.c.i
+
+lz4frame.s: lz4frame.c.s
+
+.PHONY : lz4frame.s
+
+# target to generate assembly for a file
+lz4frame.c.s:
+	$(MAKE) -f CMakeFiles/flow_reader.dir/build.make CMakeFiles/flow_reader.dir/lz4frame.c.s
+.PHONY : lz4frame.c.s
+
+lz4hc.o: lz4hc.c.o
+
+.PHONY : lz4hc.o
+
+# target to build an object file
+lz4hc.c.o:
+	$(MAKE) -f CMakeFiles/flow_reader.dir/build.make CMakeFiles/flow_reader.dir/lz4hc.c.o
+.PHONY : lz4hc.c.o
+
+lz4hc.i: lz4hc.c.i
+
+.PHONY : lz4hc.i
+
+# target to preprocess a source file
+lz4hc.c.i:
+	$(MAKE) -f CMakeFiles/flow_reader.dir/build.make CMakeFiles/flow_reader.dir/lz4hc.c.i
+.PHONY : lz4hc.c.i
+
+lz4hc.s: lz4hc.c.s
+
+.PHONY : lz4hc.s
+
+# target to generate assembly for a file
+lz4hc.c.s:
+	$(MAKE) -f CMakeFiles/flow_reader.dir/build.make CMakeFiles/flow_reader.dir/lz4hc.c.s
+.PHONY : lz4hc.c.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -258,6 +420,33 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles/flow_reader.dir/build.make CMakeFiles/flow_reader.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+xxhash.o: xxhash.c.o
+
+.PHONY : xxhash.o
+
+# target to build an object file
+xxhash.c.o:
+	$(MAKE) -f CMakeFiles/flow_reader.dir/build.make CMakeFiles/flow_reader.dir/xxhash.c.o
+.PHONY : xxhash.c.o
+
+xxhash.i: xxhash.c.i
+
+.PHONY : xxhash.i
+
+# target to preprocess a source file
+xxhash.c.i:
+	$(MAKE) -f CMakeFiles/flow_reader.dir/build.make CMakeFiles/flow_reader.dir/xxhash.c.i
+.PHONY : xxhash.c.i
+
+xxhash.s: xxhash.c.s
+
+.PHONY : xxhash.s
+
+# target to generate assembly for a file
+xxhash.c.s:
+	$(MAKE) -f CMakeFiles/flow_reader.dir/build.make CMakeFiles/flow_reader.dir/xxhash.c.s
+.PHONY : xxhash.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -265,11 +454,20 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
-	@echo "... flow_reader"
 	@echo "... edit_cache"
+	@echo "... flow_reader"
 	@echo "... Dbscan.o"
 	@echo "... Dbscan.i"
 	@echo "... Dbscan.s"
+	@echo "... Enclosure.o"
+	@echo "... Enclosure.i"
+	@echo "... Enclosure.s"
+	@echo "... ImageNode.o"
+	@echo "... ImageNode.i"
+	@echo "... ImageNode.s"
+	@echo "... PageSegmenter.o"
+	@echo "... PageSegmenter.i"
+	@echo "... PageSegmenter.s"
 	@echo "... Xycut.o"
 	@echo "... Xycut.i"
 	@echo "... Xycut.s"
@@ -279,9 +477,21 @@ help:
 	@echo "... flow.o"
 	@echo "... flow.i"
 	@echo "... flow.s"
+	@echo "... lz4.o"
+	@echo "... lz4.i"
+	@echo "... lz4.s"
+	@echo "... lz4frame.o"
+	@echo "... lz4frame.i"
+	@echo "... lz4frame.s"
+	@echo "... lz4hc.o"
+	@echo "... lz4hc.i"
+	@echo "... lz4hc.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... xxhash.o"
+	@echo "... xxhash.i"
+	@echo "... xxhash.s"
 .PHONY : help
 
 

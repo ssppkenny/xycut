@@ -2,41 +2,46 @@
 #include "flow.h"
 #include <opencv2/opencv.hpp>
 #include "Xycut.h"
+#include "PageSegmenter.h"
 
 int main() {
 
     //Page p = Page("littlewood.png");
     //std::cout << p.height << " " << p.width << std::endl;
-    cv::Mat image = cv::imread("out2.jpg", 0);
+    cv::Mat image = cv::imread("image1.png");
+    
+    Xycut xycut(image);
+    std::vector<ImageNode> images = xycut.xycut();
+    
+    for (int i=0;i<images.size(); i++) {
+        ImageNode node = images.at(i);
+        cv::rectangle(image, cv::Rect(node.get_x(), node.get_y(), node.get_width(), node.get_height()), cv::Scalar(255,0,0), 2, 8,0);
 
-    cv::Mat copy = image.clone();
-    cv::bitwise_not(copy, copy);
-    cv::threshold(copy, copy, 0, 255, cv::THRESH_BINARY | cv::THRESH_OTSU);
+        //std::string f = std::string("out") + std::to_string(i) + std::string(".png");
+        //cv::Mat out = node.get_mat();
+        //cv::bitwise_not(out, out);
+        //cv::imwrite(f.c_str(), out);
 
-    cv::Mat labeled(image.size(), image.type());
-    cv::Mat rectComponents = cv::Mat::zeros(cv::Size(0, 0), 0);
-    cv::Mat centComponents = cv::Mat::zeros(cv::Size(0, 0), 0);
-    connectedComponentsWithStats(copy, labeled, rectComponents, centComponents);
-
-    int count = rectComponents.rows - 1;
-    double heights[count];
-
-    for (int i = 1; i < rectComponents.rows; i++) {
-        int h = rectComponents.at<int>(cv::Point(3, i));
-        heights[i - 1] = h;
     }
 
-    cv::Scalar m, stdv;
-    cv::Mat hist(1, count, CV_64F, &heights);
-    meanStdDev(hist, m, stdv);
-    double threshold = m(0);
+    cv::imwrite("segms.png", image);
 
-    Xycut xycut(copy);
-    cv::Mat without_borders = xycut.image_without_white_borders();
-    xycut.xycut_step(without_borders, threshold);
+    
+/*
+    PageSegmenter ps(image);
+    std::vector<glyph> glyphs = ps.get_glyphs();
 
-    cv::imwrite("out.png", without_borders);
+    for (int i=0; i<glyphs.size(); i++) {
+        glyph g = glyphs.at(i);
+        cv::rectangle(image, cv::Rect(g.x, g.y, g.width, g.height), cv::Scalar(255,0,0), 1, 8,0);
 
+        
+    }
+*/
+    cv::imwrite("segms.png", image);
+
+    
+    
     //Page np = p.reflow(p.width/2, p.height*2);
 
     //cv::imwrite("reflow.png", np.mat);
